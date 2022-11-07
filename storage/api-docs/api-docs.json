@@ -1,0 +1,62 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "Daxci Api",
+        "description": "Swagger documentation",
+        "contact": {
+            "email": "leandro.souara.web@gmail.com"
+        },
+        "license": {
+            "name": "Apache 2.0",
+            "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
+        },
+        "version": "1.0.0"
+    },
+    "paths": {
+        "/api/price/health": {
+            "get": {
+                "tags": [
+                    "Price"
+                ],
+                "summary": "Test connection to Price Client",
+                "description": "Test connection to Price Client",
+                "operationId": "53f69015ac4decffcabc0e58a096a7a8",
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                }
+            }
+        },
+        "/api/price/{crypto}/latest": {
+            "get": {
+                "tags": [
+                    "Price"
+                ],
+                "summary": "Test connection to Price Client",
+                "description": "Test connection to Price Client",
+                "operationId": "d5f041174761820089f4b7656d5aabd1",
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                }
+            }
+        },
+        "/api/price/{crypto}/from/{datetime}": {
+            "get": {
+                "tags": [
+                    "Price"
+                ],
+                "summary": "Test connection to Price Client",
+                "description": "Test connection to Price Client",
+                "operationId": "889ecdfabd34a18aaa44c8f0df6b8280",
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                }
+            }
+        }
+    }
+}
